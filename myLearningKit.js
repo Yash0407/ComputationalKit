@@ -6,7 +6,7 @@ document.getElementById("check2").checked=false;
 document.getElementById("problem").innerHTML = "<p>This receives two numbers and output their sum.</p>";
 
 document.getElementById("flowchart").setAttribute("src","flowcharts/1.jpg") ;
-document.getElementById("js").setAttribute("src","f1.PNG");
+document.getElementById("js").setAttribute("src","images/f1.png");
 
 var num1 = parseInt(prompt("Enter first number:"));
 var num2 = parseInt(prompt("Enter second number:"));
