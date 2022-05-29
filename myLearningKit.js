@@ -22,7 +22,7 @@ function p02() {
 
    document.getElementById("problem").innerHTML = "<p>This receives three numbers as sides of triangle and output the area of the triangle.</p>";
    document.getElementById("flowchart").setAttribute("src" , "flowcharts/F2.jpg");
-   document.getElementById("js").setAttribute("src" ,"images/f2.PNG");
+   document.getElementById("js").setAttribute("src" ,"images/f2.png");
 
    var a = parseInt(prompt("Enter a number:"));
    var b = parseInt(prompt("Enter a number:"));
@@ -38,7 +38,7 @@ function p03() {
 
    document.getElementById("problem").innerHTML = "<p>This receives three numerical cofficients of quadratic equation and outputs its roots.</p>";
    document.getElementById("flowchart").setAttribute("src","flowcharts/F3.jpg");
-   document.getElementById("js").setAttribute("src","images/f3.PNG");
+   document.getElementById("js").setAttribute("src","images/f3.png");
    
    var a = parseInt(prompt("Enter a number:"));
    var b = parseInt(prompt("Enter a number:"));
@@ -59,7 +59,7 @@ function p04() {
 
    document.getElementById("problem").innerHTML = "<p>This receives three numerical cofficients of a quadratic equation and determines if it has two distinct real roots, one root, or no roots in real numbers.</p>";
    document.getElementById("flowchart").setAttribute("src","flowcharts/F4.jpg");
-   document.getElementById("js").setAttribute("src", "images/f4.PNG");
+   document.getElementById("js").setAttribute("src", "images/f4.png");
 
    var a = parseInt(prompt("Enter a number:"));
    var b = parseInt(prompt("Enter a number:"));
@@ -85,7 +85,7 @@ function p04() {
 function p05() {
    document.getElementById("problem").innerHTML = "<p>Maps the percentage to YorkU grading.</p>";
    document.getElementById("flowchart").setAttribute("src","flowcharts/F5.jpg");
-   document.getElementById("js").setAttribute("src", "images/f5.PNG");
+   document.getElementById("js").setAttribute("src", "images/f5.png");
    var a = parseInt(prompt("Enter the percentage:"));
    switch(true){
       case(a>89):
@@ -140,7 +140,7 @@ function p05() {
 function p06() {
    document.getElementById("problem").innerHTML = "<p>This receives a number and outputs if a number is Positive or Negative and Button is disabled when number is 0.</p>";
    document.getElementById("flowchart").setAttribute("src","flowcharts/F6.jpg");
-   document.getElementById("js").setAttribute("src", "images/f6.PNG");
+   document.getElementById("js").setAttribute("src", "images/f6.png");
 
    var a = parseInt(prompt("Enter a number:"));
    
@@ -169,7 +169,7 @@ function p07() {
    document.getElementById("check1").checked=false;
    document.getElementById("check2").checked=false;
    document.getElementById("flowchart").setAttribute("src","flowcharts/F7.jpg");
-   document.getElementById("js").setAttribute("src", "images/f7.PNG");
+   document.getElementById("js").setAttribute("src", "images/f7.png");
 
   
 
@@ -196,7 +196,7 @@ function p07() {
 function p08() {
    ;
    document.getElementById("flowchart").setAttribute("src","flowcharts/F8.jpg");
-   document.getElementById("js").setAttribute("src", "images/f8.PNG");
+   document.getElementById("js").setAttribute("src", "images/f8.png");
 
    var a = parseInt(prompt("Enter a number:"));
    
@@ -220,7 +220,7 @@ function p08() {
 function p09() {
    document.getElementById("output").innerHTML = "<p>This receive a positive number and output each digit separately. </p>";
    document.getElementById("flowchart").setAttribute("src","flowcharts/F9.jpg");
-   document.getElementById("js").setAttribute("src", "images/f9.PNG");
+   document.getElementById("js").setAttribute("src", "images/f9.png");
 
    var a = parseInt(prompt("Enter a number:"));
    var b;
@@ -244,7 +244,7 @@ function p10() {
 
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F10.jpg");
-   document.getElementById("js").setAttribute("src", "images/f10.PNG");
+   document.getElementById("js").setAttribute("src", "images/f10.png");
 
    var a = parseInt(prompt("Enter a number:"));
    var b;
@@ -273,7 +273,7 @@ function p10() {
 function p11() {
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F11.jpg");
-   document.getElementById("js").setAttribute("src", "images/f11.PNG");
+   document.getElementById("js").setAttribute("src", "images/f11.png");
 
    var a = parseInt(prompt("Enter a number:"));
    
@@ -299,7 +299,7 @@ function p11() {
 function p12() {
 
    document.getElementById("flowchart").setAttribute("src","flowcharts/F12.jpg");
-   document.getElementById("js").setAttribute("src", "images/f12.PNG");
+   document.getElementById("js").setAttribute("src", "images/f12.png");
 
    var a = parseInt(prompt("Enter a number:"));
    var b;
@@ -329,7 +329,7 @@ function p12() {
 function p13() {
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F13.jpg");
-   document.getElementById("js").setAttribute("src", "images/f13.PNG");
+   document.getElementById("js").setAttribute("src", "images/f13.png");
 
    var a = parseInt(prompt("Enter a number:"));
    var Factorial = 0; 
@@ -359,7 +359,7 @@ function p14() {
 
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F14.jpg");
-   document.getElementById("js").setAttribute("src", "images/f14.PNG");
+   document.getElementById("js").setAttribute("src", "images/f14.png");
 
    var a = parseInt(prompt("Enter a number:"));
    var last = 1;
@@ -385,7 +385,7 @@ function p14() {
 function p15() {
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F15.jpg");
-   document.getElementById("js").setAttribute("src", "images/f15.PNG");
+   document.getElementById("js").setAttribute("src", "images/f15.png");
 
    var a = parseInt(prompt("Enter a number:"));
    
@@ -406,7 +406,7 @@ function p15() {
 function p16() {
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F16.jpg");
-   document.getElementById("js").setAttribute("src", "images/f16.PNG");
+   document.getElementById("js").setAttribute("src", "images/f16.png");
 
    var num = parseInt(prompt("Enter a number:"));
    var prime = true;
@@ -436,7 +436,7 @@ function p16() {
 function p17() {
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F17.jpg");
-   document.getElementById("js").setAttribute("src", "images/f17.PNG");
+   document.getElementById("js").setAttribute("src", "images/f17.png");
 
    var sum1 = 0;
    var sum2 = 0;
@@ -465,7 +465,7 @@ function p17() {
 function p18() {
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F18.jpg");
-   document.getElementById("js").setAttribute("src", "images/f18.PNG");
+   document.getElementById("js").setAttribute("src", "images/f18.png");
 
    
    var cnt1 = 0;
@@ -501,7 +501,7 @@ function p18() {
 function p19() {
    
    document.getElementById("flowchart").setAttribute("src","flowcharts/F19.jpg");
-   document.getElementById("js").setAttribute("src", "images/f19.PNG");
+   document.getElementById("js").setAttribute("src", "images/f19.png");
    document.getElementById("output").innerHTML = "<p>This recieves a number and outputs prime numbers less than input.</p>";
    var num = parseInt(prompt("Enter a number:"));
    for(i=2; i<=num;i++){
@@ -531,7 +531,7 @@ function prime(num){
 function p20() {
    document.getElementById("output").innerHTML = "<p>This recieves a number and outputs prime numbers less than input which have 7 as digit in them.</p>";
    document.getElementById("flowchart").setAttribute("src","flowcharts/F20.jpg");
-   document.getElementById("js").setAttribute("src", "images/f20.PNG");
+   document.getElementById("js").setAttribute("src", "images/f20.png");
 
    var a = parseInt(prompt("Enter a number:"));
    for(i = 2;i <= a ;i++){
